@@ -1,1 +1,43 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+/* @import "~bootstrap/dist/css/bootstrap.min.css"; */
+.card {
+  background-color: aliceblue;
+  width: 300px;
+  height: 475px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 35%;
+  position: absolute;
+  line-height: 150px;
+  border-radius: 10px;
+}
+
+.topSuit {
+  margin-left: 15px;
+  margin-top: -25px;
+  font-size: 70px;
+}
+
+.bottomSuit {
+  margin-left: 70%;
+  font-size: 70px;
+  margin-top: 18%;
+  rotate: 180deg;
+}
+
+.number {
+  margin-left: 42%;
+  margin-top: 10%;
+  font-size: 75px;
+  font-weight: bold;
+}
+
+#generateNewCardButton {
+  margin-top: 37%;
+  margin-left: 42%;
+}
+
+body {
+  background-color: green;
+  display: inline-flexbox;
+}
